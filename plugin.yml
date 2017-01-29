@@ -1,0 +1,13 @@
+name: Spawner_Tier
+description: Simple plugin
+version: 1.0
+author: CommandCraft
+depend: [Vault]
+main: me.commandcraft.spawnerlevel.Main
+
+commands:
+  levelup:
+    description: used to level up
+permission:
+  spawnertier.levelup:
+    default: normal
